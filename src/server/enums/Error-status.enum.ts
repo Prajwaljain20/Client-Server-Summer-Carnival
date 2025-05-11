@@ -1,0 +1,9 @@
+export enum ErrorStatus {
+    INSUFFICIENT_DATA = '599',
+    TIME_OUT_ERROR = '408',
+    INVALID_INPUT = '422',
+    DATABASE_CONNECTION_ERROR = '502',
+    DATABASE_QUERY_ERROR = '102',
+    BAD_REQUEST = '400',
+    NOT_FOUND = '404'
+};

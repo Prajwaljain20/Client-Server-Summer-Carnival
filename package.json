@@ -1,0 +1,40 @@
+{
+  "name": "l-c_project",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha build/test/**/*.spec.js",
+    "compile": "npx tsc --watch",
+    "server": "cd build/server && node index.js",
+    "client": "cd build/client && set NODE_ENV=prod && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://prajwaljain@bitbucket.org/prajwaljain/l-c_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/prajwaljain/l-c_project/issues"
+  },
+  "homepage": "https://bitbucket.org/prajwaljain/l-c_project#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.14.3",
+    "@types/rewire": "^2.5.28",
+    "@types/sinon": "^10.0.13",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "msnodesqlv8": "^3.0.1",
+    "nyc": "^15.1.0",
+    "readline-sync": "^1.4.10",
+    "rewire": "^6.0.0"
+  }
+}
